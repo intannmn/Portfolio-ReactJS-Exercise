@@ -1,4 +1,5 @@
 {
+  "homepage": "https://intannmn.github.io/Portfolio-ReactJS-Exercise",
   "name": "apps",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch": "npx tailwindcss -i ./src/css/tailwind-input.css -o ./src/css/tailwind.css --watch"
+    "watch": "npx tailwindcss -i ./src/css/tailwind-input.css -o ./src/css/tailwind.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
