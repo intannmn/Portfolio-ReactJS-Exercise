@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "../css/style.css";
 import "../css/tailwind.css";
 import logo from "../asset/navbar.svg";
@@ -10,34 +11,69 @@ function Navbar() {
       <img className="mr-auto ml-10" width="120px" src={logo} alt="logo" />
       <ul className="flex items-center justify-end text-stabilo text-xl py-5 mr-10">
         <li style={navStyle}>
-          <a className="nav-button" href="#me">
+          <Link
+            to="me"
+            spy={true}
+            smooth={true}
+            offset={-68}
+            duration={1000}
+            className="nav-button"
+          >
             <span>Home</span>
             <span className="nav-hover">/ Home /</span>
-          </a>
+          </Link>
         </li>
         <li style={navStyle}>
-          <a className="nav-button" href="#aboutme">
+          <Link
+            to="aboutme"
+            spy={true}
+            smooth={true}
+            offset={-68}
+            duration={1000}
+            className="nav-button"
+          >
             <span>About</span>
             <span className="nav-hover">/ About /</span>
-          </a>
+          </Link>
         </li>
         <li style={navStyle}>
-          <a className="nav-button" href="#resume">
+          <Link
+            to="resume"
+            spy={true}
+            smooth={true}
+            offset={-68}
+            duration={1000}
+            className="nav-button"
+          >
             <span>Resume</span>
             <span className="nav-hover">/ Resume /</span>
-          </a>
+          </Link>
         </li>
         <li style={navStyle}>
-          <a className="nav-button" href="#projects">
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-68}
+            duration={1000}
+            className="nav-button"
+          >
             <span>Projects</span>
             <span className="nav-hover">/ Projects /</span>
-          </a>
+          </Link>
         </li>
         <li style={navStyle}>
-          <a className="nav-button" href="#contact">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-68}
+            duration={1000}
+            className="nav-button"
+          >
             <span>Contact</span>
             <span className="nav-hover">/ Contact /</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

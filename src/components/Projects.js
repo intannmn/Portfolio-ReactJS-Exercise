@@ -6,7 +6,7 @@ import P3 from "../asset/p3.jpg";
 
 function Projects() {
   return (
-    <div className="bg-dark py-32">
+    <div className="bg-dark py-10">
       <div className="container flex mx-auto px-10">
         <h1 className="text-white text-7xl">My Projects</h1>
         <div className="line-stabilo my-auto mx-20"></div>
