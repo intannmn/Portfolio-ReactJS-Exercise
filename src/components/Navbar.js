@@ -8,7 +8,7 @@ function Navbar() {
   const navStyle = { width: "100px", textAlign: "center" };
   return (
     <div className="flex bg-dark text-white">
-      <div className="mr-auto ml-10">
+      <div className="mr-auto ml-10" style={{ width: "150px" }}>
         <img className="mt-4" src={logo} alt="logo" width="120px" />
       </div>
       <ul className="flex items-center justify-end text-stabilo text-xl py-5 mr-10">
