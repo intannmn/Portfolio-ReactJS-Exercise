@@ -3,10 +3,10 @@ import "../css/style.css";
 
 function Contact() {
   return (
-    <div className="bg-stabilo py-8">
+    <div className="bg-stabilo py-8 text-black">
       <p className="text-4xl text-center">My Contact</p>
-      <div className="line-black mx-auto mt-1"></div>
-      <ul className="flex items-center justify-center gap-x-10 text-black text-2xl pt-5 pb-2">
+      <div className="line-black mx-auto mt-3"></div>
+      <ul className="flex items-center justify-center gap-x-10 text-2xl pt-5 pb-2">
         <li>
           <a
             className="hover:text-cyan-700"

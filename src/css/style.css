@@ -25,9 +25,10 @@ body {
 }
 
 .line-black {
-  width: 150px;
+  width: 130px;
   height: 2px;
   background-color: rgb(0, 0, 0);
+  opacity: 75%;
 }
 
 .nav-button .nav-hover {
