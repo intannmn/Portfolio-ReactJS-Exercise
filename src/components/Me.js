@@ -2,6 +2,8 @@ import React from "react";
 import "../css/style.css";
 import "../css/tailwind.css";
 import image from "../asset/about.jpeg";
+import logoReact from "../asset/react.png";
+import logoTailwind from "../asset/tailwind.webp";
 
 function Me() {
   return (
@@ -31,6 +33,16 @@ function Me() {
           >
             Contact Me
           </button>
+          <div className="flex items-center mt-20">
+            <p>TECH :</p>
+            <img className="ml-3" src={logoReact} alt="React" width={"30px"} />
+            <img
+              className="ml-2"
+              src={logoTailwind}
+              alt="Tailwind"
+              width={"30px"}
+            />
+          </div>
         </div>
         <div className="ml-64 hidden 2xl:block">
           <img

@@ -62,7 +62,7 @@ function Navbar() {
             <span className="nav-hover">/ Projects /</span>
           </Link>
         </li>
-        <li style={navStyle}>
+        <li className="hidden md:block" style={navStyle}>
           <Link
             to="contact"
             spy={true}
