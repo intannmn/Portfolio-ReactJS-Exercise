@@ -5,7 +5,10 @@ import logo from "../assets/navbar.svg";
 function Navbar() {
   const navStyle = { width: "100px", textAlign: "center" };
   return (
-    <nav className="flex bg-dark text-white" style={{position: "fixed", top: 0, width: "100%"}}>
+    <nav
+      className="flex bg-dark text-white"
+      style={{ position: "fixed", top: 0, width: "100%" }}
+    >
       <img className="mr-auto ml-10" src={logo} alt="logo" width="120px" />
       <ul className="flex items-center justify-end text-stabilo text-xl py-5 mr-10">
         <li style={navStyle}>

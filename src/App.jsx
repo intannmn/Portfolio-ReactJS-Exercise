@@ -9,14 +9,16 @@ import "./css/style.css";
 import "./css/tailwind.css";
 
 function App() {
+  return (
     <>
-    <Navbar/>
-    <Me/>
-    <AboutMe/>
-    <Resume/>
-    <Projects/>
-    <Contact/>
+      <Navbar />
+      <Me />
+      <AboutMe />
+      <Resume />
+      <Projects />
+      <Contact />
     </>
+  );
 }
 
 export default App;
