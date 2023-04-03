@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <section className="bg-dark py-40">
+    <section id="aboutme" className="bg-dark py-40">
       <div className="container md:flex mx-auto px-10">
         <div className="text-white">
           <h1 className="text-5xl">About Me</h1>

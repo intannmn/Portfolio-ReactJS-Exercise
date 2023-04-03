@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="bg-stabilo py-8 text-black">
+    <section id="contact" className="bg-stabilo py-8 text-black">
       <p className="text-4xl text-center">My Contact</p>
       <div className="line-black mx-auto mt-3"></div>
       <ul className="flex items-center justify-center gap-x-10 text-2xl pt-5 pb-2">
@@ -11,6 +11,7 @@ function Contact() {
             className="hover:text-cyan-700"
             href="https://www.google.com/intl/id/gmail/about/"
             target={"_blank"}
+            rel="noreferrer"
           >
             Email
           </a>
@@ -23,6 +24,7 @@ function Contact() {
             className="hover:text-cyan-700"
             href="https://instagram.com/intannmn?igshid=ZDdkNTZiNTM="
             target={"_blank"}
+            rel="noreferrer"
           >
             Instagram
           </a>
@@ -35,6 +37,7 @@ function Contact() {
             className="hover:text-cyan-700"
             href="https://www.whatsapp.com/?lang=id"
             target={"_blank"}
+            rel="noreferrer"
           >
             WhatsApp
           </a>
@@ -46,6 +49,7 @@ function Contact() {
           className="hover:text-cyan-700"
           href="https://instagram.com/intannmn"
           target={"_blank"}
+          rel="noreferrer"
         >
           Intan Meilanie Nugraha
         </a>{" "}

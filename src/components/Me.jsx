@@ -5,7 +5,7 @@ import logoTailwind from "../assets/tailwind.webp";
 
 function Me() {
   return (
-    <section className="bg-dark">
+    <section id="me" className="bg-dark">
       <div className="container mx-auto px-10 2xl:flex pt-32 pb-10">
         <div className="mx-auto mb-20 2xl:hidden" style={{ maxWidth: "700px" }}>
           <img
@@ -28,6 +28,7 @@ function Me() {
             onClick={() =>
               window.open("https://www.whatsapp.com/?lang=id", "_blank")
             }
+            rel="noreferrer"
           >
             Contact Me
           </button>

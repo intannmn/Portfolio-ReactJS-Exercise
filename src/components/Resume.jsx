@@ -3,7 +3,7 @@ import image from "../assets/resume.png";
 
 function Resume() {
   return (
-    <section className="bg-dark pt-20 pb-32">
+    <section id="resume" className="bg-dark pt-20 pb-32">
       <div className="container 2xl:flex mx-auto px-10">
         <div className="hidden 2xl:block">
           <img src={image} alt="Resume" width={"800px"} />
